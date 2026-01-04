@@ -10,7 +10,7 @@ let prevMinute = -1; // track previous minute value
 function setup() {
     createCanvas(800,600); // make an HTML canvas element width x height pixels
     console.log("p5.js sketch loaded!"); // test to verify console is workin
-    console.log("NOTE: Positioning of the sun/moon represents hour of the day. At 12:00(AM/PM), the sun/moon is at the center of the sky and moves in an arc around the sky for different hours.");
+    console.log("NOTE: Positioning of the sun/moon represents hour of the day. At 12:00(AM/PM), the sun/moon is at the center of the sky and moves in an arc around the sky for different hours. Moon appears at 18:00 (6PM) and sun appears at 6:00 (6AM)");
     
     sunImg = loadImage("images/sun2.png");
     moonImg = loadImage("images/moon.png");
