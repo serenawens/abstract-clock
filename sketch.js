@@ -10,6 +10,7 @@ let prevMinute = -1; // track previous minute value
 function setup() {
     createCanvas(800,600); // make an HTML canvas element width x height pixels
     console.log("p5.js sketch loaded!"); // test to verify console is workin
+    console.log("testing deployment")
     
     sunImg = loadImage("images/sun2.png");
     moonImg = loadImage("images/moon.png");
